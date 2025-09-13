@@ -1,7 +1,7 @@
 
 {
   "admins": [
-    "100003632922834"
+    "61550941044179"
   ],
   "moderators": [
     "100090706983249",
@@ -33,6 +33,6 @@
   "Prefix": [
     "/"
   ],
-  "botName": "KagenouBot",
-  "mongoUri": ""
+  "botName": "GaGDropWatch",
+  "mongoUri": "mongodb+srv://mart1john2labaco3:NeyCqMwiUt5f9ssQ@gag.fftre6w.mongodb.net/?retryWrites=true&w=majority&appName=GAG"
 }
