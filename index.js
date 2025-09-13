@@ -684,3 +684,15 @@ const startBot = async () => {
 };
 
 startBot();
+
+/* ------------------ PORT SERVER FOR RENDER ------------------ */
+const app = express();
+const PORT = process.env.PORT || 8000; // changed to 8000
+
+app.get("/", (req, res) => {
+  res.send("✅ Shadow Garden Bot is running!");
+});
+
+http.createServer(app).listen(PORT, () => {
+  console.log(`[SERVER] Listening on port ${PORT}`);
+});
